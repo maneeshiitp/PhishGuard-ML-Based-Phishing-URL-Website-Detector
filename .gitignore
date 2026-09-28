@@ -1,0 +1,20 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets and local config
+.env
+
+# Tooling
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Large or generated files (recreate them with the steps in README.md)
+data/raw/*.csv
+data/raw/*.zip
+models/*.joblib
+models/metrics.json
